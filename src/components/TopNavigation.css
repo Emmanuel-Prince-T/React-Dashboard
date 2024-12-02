@@ -1,0 +1,25 @@
+.top-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #292b3a;
+    color: #ffffff;
+    border-bottom: 1px solid #3e4155;
+  }
+  
+  .top-navigation input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    background-color: #3e4155;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+  }
+  
+  .top-navigation .icons span {
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  

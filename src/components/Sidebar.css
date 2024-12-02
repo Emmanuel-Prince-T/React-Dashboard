@@ -1,0 +1,91 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #1f1f2e;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.nav-menu {
+  margin-bottom: 20px;
+}
+
+.nav-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-item {
+  padding: 15px 20px;
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  color: #b0b0c3;
+  cursor: pointer;
+}
+
+.nav-item.active {
+  background-color: #383c54;
+  color: #ffffff;
+}
+
+.nav-item:hover {
+  background-color: #383c54;
+  color: #ffffff;
+}
+
+.sidebar-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.option-button,
+.logout-button {
+  background-color: #383c54;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.logout-button {
+  color: #ff6b6b;
+}
+
+.upgrade-card {
+  background-color: #292b3a;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.upgrade-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.compass-icon {
+  font-size: 30px;
+}
+
+.upgrade-card h4 {
+  margin: 0;
+  color: #ffffff;
+}
+
+.upgrade-card p {
+  margin: 0;
+  color: #b0b0c3;
+  font-size: 14px;
+}
