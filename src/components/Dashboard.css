@@ -5,7 +5,7 @@
       "sidebar main-content profile";
     grid-template-columns: 1fr 2fr 1fr;
     height: 100vh;
-    background-color: #212131;
+    background-color: #1f1f2e;
     color: white;
     padding: 20px;
     gap: 20px;
